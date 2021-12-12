@@ -6,7 +6,9 @@ const Layout = () => {
     return (
         <div>
             <nav>
+                
                 <ul >
+                    
                     <li><NavLink id='navbar' style={({isActive}) =>({color: isActive ? "red" : "blue"})} to="/home">Home</NavLink></li>
                     <li><NavLink  id='navbar' style={({isActive}) =>({color: isActive ? "red" : "blue"})} to="/about">About</NavLink></li>
                     <li><NavLink  id='navbar' style={({isActive}) =>({color: isActive ? "red" : "blue"})} to="/blog">Blog</NavLink></li>

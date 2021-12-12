@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 nav{
+     position: sticky;
+     left: 0;
+     top: 0;
+     z-index: 999;
+     
     width: 100%;
     height: 50px;
     background-color: burlywood;
@@ -22,4 +29,11 @@ ul{
     color: rgb(255, 223, 223);
     text-decoration: none;
     padding: 15px;
+    font-family: 'Bungee Inline',
+    cursive;
+    opacity: 0.8;
 }
+#navbar:hover{
+   opacity: 1.2;
+}
+

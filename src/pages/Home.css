@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+.homePage{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 25px;
+    background-color: yellow;
+    /* border: 3px solid blue; */
+    border-radius: 10px;
+}
+.home{
+    padding: 10px;
+    /* border: 1px solid red; */
+    margin: 15px;
+    background-color: black;
+    color: #fff;
+    border-radius: 15px;
+    font-family: 'Bungee Inline',
+    cursive;
+    
+}
+img{
+    width: 350px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+img:hover{
+    filter: grayscale(100%);
+}
+.imgP{
+    /* border: 1px solid red; */
+    width: 350px;
+   
+}
+p{
+    padding: 5px;
+    font-size: 13px;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import {data} from "./data"
+import "../pages/Home.css"
 
 
 const Home = () => {
@@ -8,12 +9,13 @@ const Home = () => {
           {
               data.map((veri, index) => {
                   return(
-                      <div key={index}>
+                      <div className='home' key={index}>
                           <div>
                               {veri.title}
                           </div>
-                          <div>
-                              <img style={{width:200 ,heigth:200}} src={veri.image} alt="" />
+                          <div className='imgP'>
+                              <img src={veri.image} alt="" />
+                              <p>{veri.desc}</p>
                           </div>
                       </div>
                   )
